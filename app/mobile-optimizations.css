@@ -1,0 +1,90 @@
+/* Estilos para melhorar a experiência em dispositivos móveis */
+
+/* Ajustes para elementos de toque */
+@media (hover: none) {
+  /* Aumentar área de toque para links e botões */
+  .nav-link, 
+  button,
+  .card a,
+  input[type="submit"] {
+    min-height: 44px;
+    min-width: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Espaçamento maior entre elementos clicáveis */
+  .card a,
+  .card button {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Melhorar visualização de formulários em telas pequenas */
+  input, 
+  select, 
+  textarea {
+    font-size: 16px !important; /* Evita zoom automático em iOS */
+  }
+}
+
+/* Ajustes para telas muito pequenas */
+@media (max-width: 360px) {
+  /* Reduzir padding em cards */
+  .card {
+    padding: 0.75rem !important;
+  }
+  
+  /* Ajustar tamanho de texto */
+  p, li {
+    font-size: 0.9rem;
+  }
+  
+  /* Ajustar espaçamento em seções */
+  section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+/* Melhorias para orientação paisagem em dispositivos móveis */
+@media (max-height: 500px) and (orientation: landscape) {
+  /* Ajustar menu mobile para não ocupar toda a tela */
+  header .fixed {
+    max-height: 85vh;
+    overflow-y: auto;
+  }
+  
+  /* Reduzir padding vertical em seções */
+  section {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+/* Ajustes para tablets */
+@media (min-width: 641px) and (max-width: 1024px) {
+  /* Ajustar grid para 2 colunas em vez de 3 ou 4 */
+  .grid-cols-3,
+  .grid-cols-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Melhorias de acessibilidade para foco */
+:focus-visible {
+  outline: 3px solid #4CAF50;
+  outline-offset: 3px;
+  border-radius: 0.25rem;
+}
+
+/* Ajustes para o espaçamento do conteúdo principal devido ao header fixo */
+main {
+  padding-top: 4rem;
+}
+
+@media (max-width: 640px) {
+  main {
+    padding-top: 3.5rem;
+  }
+}

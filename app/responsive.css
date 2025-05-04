@@ -1,0 +1,93 @@
+/* Estilos responsivos adicionais */
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 640px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  h1 {
+    font-size: 2rem !important;
+  }
+  
+  h2 {
+    font-size: 1.75rem !important;
+  }
+  
+  .section-title {
+    font-size: 1.75rem !important;
+  }
+  
+  .card {
+    padding: 1rem !important;
+  }
+}
+
+/* Ajustes para tablets */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Melhorias de acessibilidade para elementos interativos */
+button, 
+a, 
+input[type="submit"],
+input[type="button"] {
+  transition: all 0.2s ease;
+}
+
+button:focus, 
+a:focus, 
+input:focus, 
+select:focus, 
+textarea:focus {
+  outline: 2px solid #1E5F8C;
+  outline-offset: 2px;
+}
+
+/* Melhorias para interação em dispositivos touch */
+@media (hover: none) {
+  button, 
+  a, 
+  input[type="submit"],
+  input[type="button"] {
+    padding: 0.75rem 1rem;
+  }
+  
+  .card {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Ajustes para telas muito pequenas */
+@media (max-width: 360px) {
+  .container {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  
+  h1 {
+    font-size: 1.75rem !important;
+  }
+  
+  h2 {
+    font-size: 1.5rem !important;
+  }
+  
+  .section-title {
+    font-size: 1.5rem !important;
+  }
+}
+
+/* Melhorias para telas grandes */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
