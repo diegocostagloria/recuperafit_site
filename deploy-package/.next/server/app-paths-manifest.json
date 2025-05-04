@@ -1,7 +1,5 @@
 {
-  "/api/plans-static/route": "app/api/plans-static/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/para-atletas/page": "app/para-atletas/page.js",
-  "/page": "app/page.js",
-  "/agendamento/page": "app/agendamento/page.js"
+  "/sobre/page": "app/sobre/page.js",
+  "/contato/page": "app/contato/page.js",
+  "/para-atletas/page": "app/para-atletas/page.js"
 }

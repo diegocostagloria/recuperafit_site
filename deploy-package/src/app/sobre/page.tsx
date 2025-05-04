@@ -108,10 +108,10 @@ export default function AboutPage() {
               <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4">
                 {/* Placeholder for team member image */}
               </div>
-              <h3 className="text-xl font-bold">Ricardo Oliveira</h3>
+              <h3 className="text-xl font-bold">Diego Costa</h3>
               <p className="text-[#1E5F8C] font-semibold mb-2">Fundador e CEO</p>
               <p className="text-gray-600">
-                Atleta de endurance há mais de 10 anos, com experiência em gestão de negócios esportivos e paixão por tecnologias de recuperação.
+                Atleta de endurance, com experiência em gestão de negócios esportivos e paixão por tecnologias de recuperação.
               </p>
             </div>
             
@@ -130,10 +130,10 @@ export default function AboutPage() {
               <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4">
                 {/* Placeholder for team member image */}
               </div>
-              <h3 className="text-xl font-bold">Bruno Mendes</h3>
-              <p className="text-[#1E5F8C] font-semibold mb-2">Gerente de Operações</p>
+              <h3 className="text-xl font-bold">Eddoardo Loewenthal</h3>
+              <p className="text-[#1E5F8C] font-semibold mb-2">Fundador e CEO</p>
               <p className="text-gray-600">
-                Especialista em logística e atendimento ao cliente, responsável por garantir a excelência na entrega e manutenção dos equipamentos.
+              Atleta de endurance, com experiência em gestão de negócios esportivos e paixão por tecnologias de recuperação.
               </p>
             </div>
           </div>

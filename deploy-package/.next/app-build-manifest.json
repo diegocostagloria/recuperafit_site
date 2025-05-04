@@ -6,30 +6,25 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/agendamento/page": [
+    "/sobre/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/agendamento/page.js"
+      "static/chunks/app/sobre/page.js"
     ],
-    "/api/plans-static/route": [
+    "/contato/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/api/plans-static/route.js"
+      "static/chunks/app/contato/page.js"
+    ],
+    "/planos/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/planos/page.js"
     ],
     "/para-atletas/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/para-atletas/page.js"
-    ],
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
-    "/_not-found/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
     ]
   }
 }
