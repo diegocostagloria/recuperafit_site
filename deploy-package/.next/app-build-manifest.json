@@ -11,20 +11,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/sobre/page.js"
     ],
+    "/botas-pneumaticas/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/botas-pneumaticas/page.js"
+    ],
     "/contato/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/contato/page.js"
-    ],
-    "/planos/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/planos/page.js"
-    ],
-    "/para-atletas/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/para-atletas/page.js"
     ]
   }
 }
