@@ -1,0 +1,83 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-51e5624356c413cb.js",
+      "static/chunks/ebe977ba-999c218bd7a2fe71.js",
+      "static/chunks/411-313f7a4cb8ac37fa.js",
+      "static/chunks/main-app-5e028947961c4484.js",
+      "static/chunks/app/_not-found/page-c68413ab54debabb.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-51e5624356c413cb.js",
+      "static/chunks/ebe977ba-999c218bd7a2fe71.js",
+      "static/chunks/411-313f7a4cb8ac37fa.js",
+      "static/chunks/main-app-5e028947961c4484.js",
+      "static/css/86e42192abaf4d37.css",
+      "static/css/ade15410c3f52033.css",
+      "static/chunks/612-83f19777e4249bf8.js",
+      "static/chunks/app/layout-e463e802a55f68cd.js"
+    ],
+    "/api/plans-static/route": [
+      "static/chunks/webpack-51e5624356c413cb.js",
+      "static/chunks/ebe977ba-999c218bd7a2fe71.js",
+      "static/chunks/411-313f7a4cb8ac37fa.js",
+      "static/chunks/main-app-5e028947961c4484.js",
+      "static/chunks/app/api/plans-static/route-bdba78442ade20d5.js"
+    ],
+    "/agendamento/page": [
+      "static/chunks/webpack-51e5624356c413cb.js",
+      "static/chunks/ebe977ba-999c218bd7a2fe71.js",
+      "static/chunks/411-313f7a4cb8ac37fa.js",
+      "static/chunks/main-app-5e028947961c4484.js",
+      "static/chunks/551-9aa1f4b9849a75bc.js",
+      "static/chunks/app/agendamento/page-7b2b708872a7d967.js"
+    ],
+    "/botas-pneumaticas/page": [
+      "static/chunks/webpack-51e5624356c413cb.js",
+      "static/chunks/ebe977ba-999c218bd7a2fe71.js",
+      "static/chunks/411-313f7a4cb8ac37fa.js",
+      "static/chunks/main-app-5e028947961c4484.js",
+      "static/chunks/612-83f19777e4249bf8.js",
+      "static/chunks/app/botas-pneumaticas/page-794294196658d899.js"
+    ],
+    "/contato/page": [
+      "static/chunks/webpack-51e5624356c413cb.js",
+      "static/chunks/ebe977ba-999c218bd7a2fe71.js",
+      "static/chunks/411-313f7a4cb8ac37fa.js",
+      "static/chunks/main-app-5e028947961c4484.js",
+      "static/chunks/app/contato/page-9bbe137d03932d4f.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-51e5624356c413cb.js",
+      "static/chunks/ebe977ba-999c218bd7a2fe71.js",
+      "static/chunks/411-313f7a4cb8ac37fa.js",
+      "static/chunks/main-app-5e028947961c4484.js",
+      "static/chunks/612-83f19777e4249bf8.js",
+      "static/chunks/app/page-e6b5351cb7ff25ea.js"
+    ],
+    "/para-atletas/page": [
+      "static/chunks/webpack-51e5624356c413cb.js",
+      "static/chunks/ebe977ba-999c218bd7a2fe71.js",
+      "static/chunks/411-313f7a4cb8ac37fa.js",
+      "static/chunks/main-app-5e028947961c4484.js",
+      "static/chunks/612-83f19777e4249bf8.js",
+      "static/chunks/app/para-atletas/page-26229454e9349123.js"
+    ],
+    "/planos/page": [
+      "static/chunks/webpack-51e5624356c413cb.js",
+      "static/chunks/ebe977ba-999c218bd7a2fe71.js",
+      "static/chunks/411-313f7a4cb8ac37fa.js",
+      "static/chunks/main-app-5e028947961c4484.js",
+      "static/chunks/612-83f19777e4249bf8.js",
+      "static/chunks/app/planos/page-0f14444e76eeb53d.js"
+    ],
+    "/sobre/page": [
+      "static/chunks/webpack-51e5624356c413cb.js",
+      "static/chunks/ebe977ba-999c218bd7a2fe71.js",
+      "static/chunks/411-313f7a4cb8ac37fa.js",
+      "static/chunks/main-app-5e028947961c4484.js",
+      "static/chunks/612-83f19777e4249bf8.js",
+      "static/chunks/app/sobre/page-3f6ba536abc4108f.js"
+    ]
+  }
+}
