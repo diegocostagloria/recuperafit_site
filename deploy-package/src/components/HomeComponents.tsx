@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { LucideArrowRight, LucideCheck } from 'lucide-react';
 
+
 // Função para animar elementos quando entram na viewport
 const useAnimateOnScroll = () => {
   useEffect(() => {
@@ -63,10 +64,13 @@ export default function HeroSection() {
         </div>
         <div className="relative h-[350px] md:h-[450px] lg:h-[550px] slide-in-right">
           <div className="absolute inset-0 bg-gradient-to-r from-[#1E5F8C]/30 to-transparent rounded-xl shadow-2xl overflow-hidden transform hover:scale-[1.02] transition-transform duration-500">
-            {/* Placeholder for hero image - will be replaced with actual image */}
-            <div className="w-full h-full flex items-center justify-center text-white text-lg">
-              Imagem de atleta usando botas pneumáticas
-            </div>
+          <Image
+            src="/imagens/homecomponents/modelo-sofa-bota-normatec.jpeg" // Substitua pelo caminho da sua imagem
+            alt="Botas pneumáticas Normatec em uso"
+            fill
+            style={{ objectFit: 'cover' }}
+            className="rounded-xl"
+          />
           </div>
         </div>
       </div>
@@ -302,22 +306,22 @@ export function TestimonialsSection() {
   
   const testimonials = [
     {
-      name: "Carlos Silva",
-      role: "Corredor de Maratona",
+      name: "Deoclecio",
+      role: "Maratonista",
       quote: "As botas pneumáticas da RecuperaFit fizeram toda a diferença na minha recuperação após a Maratona de São Paulo. Consegui voltar aos treinos muito mais rápido do que o normal.",
-      image: "/placeholder-avatar.jpg"
+      image: "/imagens/homecomponents/deo.jpeg"
     },
     {
-      name: "Ana Oliveira",
+      name: "Oliveira",
       role: "Ciclista",
       quote: "Aluguei as botas para usar após um evento de ciclismo de longa distância e fiquei impressionada com os resultados. A entrega foi pontual e o atendimento excelente.",
-      image: "/placeholder-avatar.jpg"
+      image: "/imagens/homecomponents/ciclista.png"
     },
     {
       name: "Marcos Santos",
       role: "Triatleta",
       quote: "Como triatleta, a recuperação é fundamental para manter a consistência nos treinos. O serviço da RecuperaFit é perfeito para usar nos períodos mais intensos de preparação.",
-      image: "/placeholder-avatar.jpg"
+      image: "/imagens/homecomponents/triatleta.png"
     }
   ];
 
@@ -331,7 +335,13 @@ export function TestimonialsSection() {
             <div key={index} className="card p-8 fade-in" style={{transitionDelay: `${0.1 * (index + 1)}s`}}>
               <div className="flex items-center mb-6">
                 <div className="w-16 h-16 rounded-full bg-gray-300 mr-4 overflow-hidden">
-                  {/* Placeholder for avatar */}
+                <Image
+                  src={testimonial.image} // Caminho da imagem de cada pessoa
+                  alt={testimonial.name} // Nome da pessoa como texto alternativo
+                  width={64} // Largura da imagem
+                  height={64} // Altura da imagem
+                  className="rounded-full" // Estilo para bordas arredondadas
+                />
                 </div>
                 <div>
                   <h4 className="font-bold text-xl">{testimonial.name}</h4>
@@ -384,7 +394,13 @@ export function PartnersSection() {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 fade-in" style={{transitionDelay: '0.4s'}}>
           {[1, 2, 3, 4, 5, 6].map((partner) => (
             <div key={partner} className="flex items-center justify-center h-28 bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 transform hover:scale-105">
-              <div className="text-gray-400 font-semibold">Logo Parceiro {partner}</div>
+                <Image
+                  src={`/imagens/homecomponents/parceiros/logo-parceiro-${partner}.jpg`} // Substitua pelo caminho correto das imagens
+                  alt={`Logo do Parceiro ${partner}`}
+                  width={100} // Ajuste a largura conforme necessário
+                  height={100} // Ajuste a altura conforme necessário
+                  className="object-contain" // Garante que a imagem se ajuste ao contêiner
+                />
             </div>
           ))}
         </div>

@@ -20,20 +20,24 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold mb-6 text-[#1E5F8C]">Nossa História</h2>
               <p className="mb-4">
-                A RecuperaFit nasceu da experiência pessoal de seu fundador, um atleta de endurance que, após participar de diversas competições, identificou uma lacuna importante no mercado: o acesso limitado a equipamentos avançados de recuperação muscular.
+                A RecuperaFit nasceu da vivência de seus fundadores <b>Diego Costa</b> e <b>Eddoardo Loewenthal</b> apaixonados por saúde e bem-estar. Ambos atletas de endurance, que após participar de diversas competições, identificou uma lacuna importante no mercado: o acesso limitado a equipamentos avançados de recuperação muscular.
               </p>
               <p className="mb-4">
-                Após experimentar os benefícios das botas pneumáticas em uma clínica especializada e perceber a significativa melhora na recuperação, surgiu a ideia: por que não tornar essa tecnologia acessível a todos os atletas, sem a necessidade de um alto investimento na compra do equipamento?
+                Após experimentarem os efeitos transformadores das botas pneumáticas em uma clínica especializada — e comprovarem a diferença significativa na recuperação — surgiu um propósito em comum: tornar essa tecnologia acessível para todos os atletas, do iniciante ao profissional sem a necessidade de um alto investimento na compra do equipamento.
               </p>
               <p>
-                Em 2025, a RecuperaFit foi fundada em São Paulo com uma missão clara: democratizar o acesso à tecnologia avançada de recuperação muscular através de um serviço de aluguel conveniente, flexível e de alta qualidade.
+              Em 2025, a RecuperaFit foi fundada em São Paulo com uma missão clara: democratizar o acesso à tecnologia avançada de recuperação muscular através de um serviço de aluguel conveniente, flexível e de alta qualidade.
               </p>
             </div>
-            <div className="relative h-[400px] bg-gray-200 rounded-lg">
-              {/* Placeholder for about image */}
-              <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-lg">
-                Imagem da equipe RecuperaFit
-              </div>
+            <div className="relative h-[500px] bg-gray-200 rounded-lg">
+            
+            <Image
+                src="/imagens/sobre/fundadores.jpeg" // Substitua pelo caminho correto da imagem
+                alt="Equipe RecuperaFit"
+                fill
+                style={{ objectFit: 'cover', objectPosition: '50% 35%' }}  // Garante que a imagem preencha o contêiner sem distorção
+                className="rounded-lg"
+              />
             </div>
           </div>
         </div>

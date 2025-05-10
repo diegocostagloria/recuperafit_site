@@ -1,5 +1,9 @@
 {
+  "/api/plans-static/route": "app/api/plans-static/route.js",
+  "/page": "app/page.js",
   "/sobre/page": "app/sobre/page.js",
   "/botas-pneumaticas/page": "app/botas-pneumaticas/page.js",
-  "/contato/page": "app/contato/page.js"
+  "/para-atletas/page": "app/para-atletas/page.js",
+  "/planos/page": "app/planos/page.js",
+  "/agendamento/page": "app/agendamento/page.js"
 }
