@@ -155,7 +155,7 @@ export function HowItWorksSection() {
       <div className="container">
         <h2 className="section-title fade-in">Como Funciona</h2>
         <p className="text-center text-lg mb-16 max-w-3xl mx-auto fade-in" style={{transitionDelay: '0.2s'}}>
-          Alugar botas pneumáticas com a RecuperaFit é simples, rápido e conveniente. Veja como funciona:
+          Alugar botas pneumáticas com a RecoveryFit é simples, rápido e conveniente. Veja como funciona:
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
@@ -193,7 +193,7 @@ export function PlansSection() {
   const plans = [
     {
       name: "Diário",
-      price: "R$ 150",
+      price: "R$ 80",
       period: "por dia",
       description: "Ideal para recuperação pós-competição",
       features: [
@@ -207,7 +207,7 @@ export function PlansSection() {
     },
     {
       name: "Fim de Semana",
-      price: "R$ 350",
+      price: "R$ 190",
       period: "por 3 dias",
       description: "Perfeito para competições de fim de semana",
       features: [
@@ -222,7 +222,7 @@ export function PlansSection() {
     },
     {
       name: "Semanal",
-      price: "R$ 650",
+      price: "R$ 420",
       period: "por 7 dias",
       description: "Para períodos de treinamento intenso",
       features: [
@@ -237,7 +237,7 @@ export function PlansSection() {
     },
     {
       name: "Mensal",
-      price: "R$ 1.800",
+      price: "R$ 1.200",
       period: "por 30 dias",
       description: "Para preparação de competições importantes",
       features: [
@@ -308,7 +308,7 @@ export function TestimonialsSection() {
     {
       name: "Deoclecio",
       role: "Maratonista",
-      quote: "As botas pneumáticas da RecuperaFit fizeram toda a diferença na minha recuperação após a Maratona de São Paulo. Consegui voltar aos treinos muito mais rápido do que o normal.",
+      quote: "As botas pneumáticas da RecoveryFit fizeram toda a diferença na minha recuperação após a Maratona de São Paulo. Consegui voltar aos treinos muito mais rápido do que o normal.",
       image: "/imagens/homecomponents/deo.jpeg"
     },
     {
@@ -320,7 +320,7 @@ export function TestimonialsSection() {
     {
       name: "Marcos Santos",
       role: "Triatleta",
-      quote: "Como triatleta, a recuperação é fundamental para manter a consistência nos treinos. O serviço da RecuperaFit é perfeito para usar nos períodos mais intensos de preparação.",
+      quote: "Como triatleta, a recuperação é fundamental para manter a consistência nos treinos. O serviço da RecoveryFit é perfeito para usar nos períodos mais intensos de preparação.",
       image: "/imagens/homecomponents/triatleta.png"
     }
   ];

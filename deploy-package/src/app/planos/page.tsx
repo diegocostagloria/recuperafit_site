@@ -27,7 +27,7 @@ export default function PlansPage() {
               <h3 className="text-xl font-bold mb-1">Plano Diário</h3>
               <p className="text-gray-600 mb-4">Ideal para recuperação pós-competição</p>
               <div className="mb-6">
-                <span className="text-3xl font-bold text-[#1E5F8C]">R$ 150,00</span>
+                <span className="text-3xl font-bold text-[#1E5F8C]">R$ 80,00</span>
                 <span className="text-gray-600 ml-1">por dia</span>
               </div>
               <ul className="space-y-2 mb-6">
@@ -64,7 +64,7 @@ export default function PlansPage() {
               <h3 className="text-xl font-bold mb-1">Plano Fim de Semana</h3>
               <p className="text-gray-600 mb-4">Perfeito para competições de fim de semana</p>
               <div className="mb-6">
-                <span className="text-3xl font-bold text-[#1E5F8C]">R$ 350,00</span>
+                <span className="text-3xl font-bold text-[#1E5F8C]">R$ 190,00</span>
                 <span className="text-gray-600 ml-1">por 3 dias</span>
               </div>
               <ul className="space-y-2 mb-6">
@@ -102,7 +102,7 @@ export default function PlansPage() {
               <h3 className="text-xl font-bold mb-1">Plano Semanal</h3>
               <p className="text-gray-600 mb-4">Para períodos de treinamento intenso</p>
               <div className="mb-6">
-                <span className="text-3xl font-bold text-[#1E5F8C]">R$ 650,00</span>
+                <span className="text-3xl font-bold text-[#1E5F8C]">R$ 420,00</span>
                 <span className="text-gray-600 ml-1">por 7 dias</span>
               </div>
               <ul className="space-y-2 mb-6">
@@ -140,7 +140,7 @@ export default function PlansPage() {
               <h3 className="text-xl font-bold mb-1">Plano Mensal</h3>
               <p className="text-gray-600 mb-4">Para preparação de competições importantes</p>
               <div className="mb-6">
-                <span className="text-3xl font-bold text-[#1E5F8C]">R$ 1.800,00</span>
+                <span className="text-3xl font-bold text-[#1E5F8C]">R$ 1.200,00</span>
                 <span className="text-gray-600 ml-1">por 30 dias</span>
               </div>
               <ul className="space-y-2 mb-6">
@@ -193,7 +193,7 @@ export default function PlansPage() {
               <h3 className="text-xl font-bold mb-1">Plano Básico</h3>
               <p className="text-gray-600 mb-4">Ideal para assessorias de pequeno porte</p>
               <div className="mb-6">
-                <span className="text-3xl font-bold text-[#1E5F8C]">R$ 2.400,00</span>
+                <span className="text-3xl font-bold text-[#1E5F8C]">R$ 900,00</span>
                 <span className="text-gray-600 ml-1">/mês</span>
               </div>
               <ul className="space-y-2 mb-6">

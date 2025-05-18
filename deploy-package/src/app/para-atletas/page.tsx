@@ -159,7 +159,7 @@ export default function AthletesPage() {
         <div className="container">
           <h2 className="section-title">Casos de Sucesso</h2>
           <p className="text-center text-lg mb-12 max-w-3xl mx-auto">
-            Conheça histórias reais de atletas que melhoraram sua recuperação e desempenho com as botas pneumáticas da RecuperaFit.
+            Conheça histórias reais de atletas que melhoraram sua recuperação e desempenho com as botas pneumáticas da RecoveryFit.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -170,7 +170,7 @@ export default function AthletesPage() {
               <h3 className="text-xl font-bold mb-2 text-center">Carlos Silva</h3>
               <p className="text-[#1E5F8C] font-semibold mb-4 text-center">Maratonista</p>
               <p className="text-gray-600 italic mb-4">
-                "Após a Maratona de São Paulo, aluguei as botas pneumáticas da RecuperaFit por um fim de semana. A diferença foi impressionante! Em vez dos habituais 7-10 dias de recuperação, consegui voltar aos treinos leves em apenas 3 dias, sem dores ou desconforto."
+                "Após a Maratona de São Paulo, aluguei as botas pneumáticas da RecoveryFit por um fim de semana. A diferença foi impressionante! Em vez dos habituais 7-10 dias de recuperação, consegui voltar aos treinos leves em apenas 3 dias, sem dores ou desconforto."
               </p>
               <p className="text-gray-600 text-sm text-center">
                 Tempo de recuperação reduzido em 60%
@@ -198,7 +198,7 @@ export default function AthletesPage() {
               <h3 className="text-xl font-bold mb-2 text-center">Marcos Santos</h3>
               <p className="text-[#1E5F8C] font-semibold mb-4 text-center">Triatleta</p>
               <p className="text-gray-600 italic mb-4">
-                "Como triatleta amador que trabalha em período integral, o tempo de recuperação é crucial. Com o plano mensal da RecuperaFit, consegui treinar com qualidade nas três modalidades sem comprometer minha recuperação. Melhorei meu tempo no Ironman 70.3 em 15 minutos!"
+                "Como triatleta amador que trabalha em período integral, o tempo de recuperação é crucial. Com o plano mensal da RecoveryFit, consegui treinar com qualidade nas três modalidades sem comprometer minha recuperação. Melhorei meu tempo no Ironman 70.3 em 15 minutos!"
               </p>
               <p className="text-gray-600 text-sm text-center">
                 Melhora de desempenho em competição

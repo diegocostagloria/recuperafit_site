@@ -43,7 +43,7 @@ export default function ContactPage() {
         <div className="container">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center">Contato</h1>
           <p className="text-xl text-center max-w-3xl mx-auto">
-            Entre em contato com a RecuperaFit para tirar dúvidas, solicitar informações ou agendar seu aluguel de botas pneumáticas.
+            Entre em contato com a RecoveryFit para tirar dúvidas, solicitar informações ou agendar seu aluguel de botas pneumáticas.
           </p>
         </div>
       </section>
@@ -75,7 +75,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">E-mail</h3>
-                    <p className="text-gray-600">contato@recuperafit.com.br</p>
+                    <p className="text-gray-600">contato@RecoveryFit.com.br</p>
                     <p className="text-gray-600 text-sm mt-1">Respondemos em até 24 horas</p>
                   </div>
                 </div>
@@ -267,40 +267,40 @@ export default function ContactPage() {
         <div className="container text-center">
           <h2 className="section-title">Siga-nos nas Redes Sociais</h2>
           <p className="text-lg mb-12 max-w-3xl mx-auto">
-            Acompanhe nosso conteúdo sobre recuperação muscular, dicas para atletas e novidades da RecuperaFit.
+            Acompanhe nosso conteúdo sobre recuperação muscular, dicas para atletas e novidades da RecoveryFit.
           </p>
           
           <div className="flex flex-wrap justify-center gap-8">
-            <a href="https://instagram.com/recuperafit" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
+            <a href="https://instagram.com/RecoveryFit" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
               <div className="w-16 h-16 bg-[#1E5F8C] rounded-full flex items-center justify-center mb-2">
                 <span className="text-white text-2xl">IG</span>
               </div>
               <span className="font-semibold">Instagram</span>
-              <span className="text-gray-600">@recuperafit</span>
+              <span className="text-gray-600">@RecoveryFit</span>
             </a>
             
-            <a href="https://facebook.com/recuperafit" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
+            <a href="https://facebook.com/RecoveryFit" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
               <div className="w-16 h-16 bg-[#1E5F8C] rounded-full flex items-center justify-center mb-2">
                 <span className="text-white text-2xl">FB</span>
               </div>
               <span className="font-semibold">Facebook</span>
-              <span className="text-gray-600">/recuperafit</span>
+              <span className="text-gray-600">/RecoveryFit</span>
             </a>
             
-            <a href="https://youtube.com/recuperafit" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
+            <a href="https://youtube.com/RecoveryFit" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
               <div className="w-16 h-16 bg-[#1E5F8C] rounded-full flex items-center justify-center mb-2">
                 <span className="text-white text-2xl">YT</span>
               </div>
               <span className="font-semibold">YouTube</span>
-              <span className="text-gray-600">/recuperafit</span>
+              <span className="text-gray-600">/RecoveryFit</span>
             </a>
             
-            <a href="https://twitter.com/recuperafit" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
+            <a href="https://twitter.com/RecoveryFit" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
               <div className="w-16 h-16 bg-[#1E5F8C] rounded-full flex items-center justify-center mb-2">
                 <span className="text-white text-2xl">TW</span>
               </div>
               <span className="font-semibold">Twitter</span>
-              <span className="text-gray-600">@recuperafit</span>
+              <span className="text-gray-600">@RecoveryFit</span>
             </a>
           </div>
         </div>

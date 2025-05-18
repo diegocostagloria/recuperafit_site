@@ -9,7 +9,7 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'RecuperaFit - Aluguel de Botas Pneumáticas para Recuperação Muscular',
+  title: 'RecoveryFit - Aluguel de Botas Pneumáticas para Recuperação Muscular',
   description: 'Alugue botas pneumáticas de alta performance para acelerar sua recuperação muscular. Entregamos em sua casa em São Paulo.',
 }
 
