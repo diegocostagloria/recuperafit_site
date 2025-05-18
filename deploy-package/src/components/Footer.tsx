@@ -12,21 +12,21 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Coluna 1 - Sobre */}
           <div>
-            <h3 className="text-xl font-bold mb-4">RecuperaFit</h3>
+            <h3 className="text-xl font-bold mb-4">RecoveryFit</h3>
             <p className="mb-4">
               Especialistas em aluguel de botas pneumáticas para recuperação muscular em São Paulo, atendendo atletas amadores e profissionais.
             </p>
             <div className="flex space-x-4 mt-4">
-              <a href="https://instagram.com/recuperafit" target="_blank" rel="noopener noreferrer" className="hover:text-[#4CAF50] transition-colors duration-300" aria-label="Instagram">
+              <a href="https://instagram.com/RecoveryFit" target="_blank" rel="noopener noreferrer" className="hover:text-[#4CAF50] transition-colors duration-300" aria-label="Instagram">
                 <LucideInstagram size={20} />
               </a>
-              <a href="https://facebook.com/recuperafit" target="_blank" rel="noopener noreferrer" className="hover:text-[#4CAF50] transition-colors duration-300" aria-label="Facebook">
+              <a href="https://facebook.com/RecoveryFit" target="_blank" rel="noopener noreferrer" className="hover:text-[#4CAF50] transition-colors duration-300" aria-label="Facebook">
                 <LucideFacebook size={20} />
               </a>
-              <a href="https://youtube.com/recuperafit" target="_blank" rel="noopener noreferrer" className="hover:text-[#4CAF50] transition-colors duration-300" aria-label="YouTube">
+              <a href="https://youtube.com/RecoveryFit" target="_blank" rel="noopener noreferrer" className="hover:text-[#4CAF50] transition-colors duration-300" aria-label="YouTube">
                 <LucideYoutube size={20} />
               </a>
-              <a href="https://twitter.com/recuperafit" target="_blank" rel="noopener noreferrer" className="hover:text-[#4CAF50] transition-colors duration-300" aria-label="Twitter">
+              <a href="https://twitter.com/RecoveryFit" target="_blank" rel="noopener noreferrer" className="hover:text-[#4CAF50] transition-colors duration-300" aria-label="Twitter">
                 <LucideTwitter size={20} />
               </a>
             </div>
@@ -67,7 +67,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <LucideMail size={18} className="mr-2 flex-shrink-0" />
-                <span>contato@recuperafit.com.br</span>
+                <span>contato@RecoveryFit.com.br</span>
               </li>
               <li>
                 <p>São Paulo e Grande São Paulo</p>
@@ -104,7 +104,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/20 mt-8 pt-8 text-center md:flex md:justify-between md:text-left">
-          <p>&copy; {currentYear} RecuperaFit. Todos os direitos reservados.</p>
+          <p>&copy; {currentYear} RecoveryFit. Todos os direitos reservados.</p>
           <div className="mt-4 md:mt-0 space-x-4">
             <Link href="/termos-de-uso" className="hover:text-[#4CAF50] transition-colors duration-300">Termos de Uso</Link>
             <Link href="/politica-de-privacidade" className="hover:text-[#4CAF50] transition-colors duration-300">Política de Privacidade</Link>

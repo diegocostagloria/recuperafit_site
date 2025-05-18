@@ -32,7 +32,7 @@ export default function BootsPage() {
                 O equipamento consiste em um par de botas infláveis que cobrem as pernas, conectadas a uma unidade de controle por tubos de ar. O sistema infla e desinfla as botas em sequência, criando uma compressão controlada que ajuda na recuperação muscular.
               </p>
               <p>
-                Utilizadas por atletas profissionais há anos, as botas pneumáticas agora estão disponíveis para atletas amadores através do serviço de aluguel da RecuperaFit.
+                Utilizadas por atletas profissionais há anos, as botas pneumáticas agora estão disponíveis para atletas amadores através do serviço de aluguel da RecoveryFit.
               </p>
             </div>
           </div>
@@ -192,7 +192,7 @@ export default function BootsPage() {
             <div>
               <h3 className="text-2xl font-bold mb-6 text-[#1E5F8C]">Equipamentos de Alta Performance</h3>
               <p className="mb-4">
-                Na RecuperaFit, trabalhamos apenas com os melhores equipamentos do mercado, garantindo eficácia e segurança para nossos clientes.
+                Na RecoveryFit, trabalhamos apenas com os melhores equipamentos do mercado, garantindo eficácia e segurança para nossos clientes.
               </p>
               <p className="mb-6">
                 Nosso portfólio inclui modelos premium como o Normatec 3, reconhecido mundialmente como referência em recuperação muscular para atletas.
