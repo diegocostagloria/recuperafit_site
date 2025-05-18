@@ -9,7 +9,7 @@ export async function GET() {
         name: "Plano Diário",
         description: "Aluguel por 1 dia, ideal para recuperação pós-competição",
         duration_days: 1,
-        price: 150.00,
+        price: 80.00,
         status: "active"
       },
       {
@@ -17,7 +17,7 @@ export async function GET() {
         name: "Plano Semanal",
         description: "Aluguel por 7 dias, perfeito para períodos de treinamento intenso",
         duration_days: 7,
-        price: 650.00,
+        price: 190.00,
         status: "active"
       },
       {
@@ -25,7 +25,7 @@ export async function GET() {
         name: "Plano Mensal",
         description: "Aluguel por 30 dias, ideal para atletas em preparação para competições",
         duration_days: 30,
-        price: 1800.00,
+        price: 1200.00,
         status: "active"
       }
     ]
