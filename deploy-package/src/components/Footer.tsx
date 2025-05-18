@@ -63,11 +63,11 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center">
                 <LucidePhone size={18} className="mr-2 flex-shrink-0" />
-                <span>(11) 99999-9999</span>
+                <span>(11) 98928-8740</span>
               </li>
               <li className="flex items-center">
                 <LucideMail size={18} className="mr-2 flex-shrink-0" />
-                <span>contato@RecoveryFit.com.br</span>
+                <span>contato@recoveryfit.com.br</span>
               </li>
               <li>
                 <p>São Paulo e Grande São Paulo</p>
