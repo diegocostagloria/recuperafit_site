@@ -142,35 +142,64 @@ export default function AgendamentoPage() {
     setIsSubmitting(true);
     setError(null);
     setSuccess(null);
-    setShowPaymentForm(false); // Garante que o form de pagamento não esteja visível inicialmente
-
+    
     try {
-      // Passo 1: Chamar o backend para criar uma PaymentIntent
-      const response = await fetch('/api/stripe/create-payment-intent', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          amount: selectedPlan.price * 100, // Stripe espera o valor em centavos
-          currency: 'brl',
-          description: `Aluguel: ${selectedPlan.name}`,
-          customerEmail: formData.email // Opcional, mas útil para o Stripe
-        }),
+      // Formatar a mensagem para o WhatsApp
+      const formattedDeliveryDate = format(new Date(formData.deliveryDate), 'dd/MM/yyyy', { locale: ptBR });
+      const formattedReturnDate = returnDate ? format(new Date(returnDate), 'dd/MM/yyyy', { locale: ptBR }) : '';
+      
+      // Construir a mensagem com todos os dados do formulário
+      const message = `*Novo Agendamento - RecoveryFit*
+      
+*Plano Escolhido:* ${selectedPlan.name}
+*Valor:* R$ ${selectedPlan.price.toFixed(2)}
+*Duração:* ${selectedPlan.duration_days} ${selectedPlan.duration_days === 1 ? 'dia' : 'dias'}
+
+*Dados do Cliente:*
+*Nome:* ${formData.name}
+*E-mail:* ${formData.email}
+*Telefone:* ${formData.phone}
+
+*Endereço de Entrega:*
+${formData.address}
+${formData.neighborhood}, ${formData.city} - ${formData.state}
+*CEP:* ${formData.cep}
+
+*Datas:*
+*Entrega:* ${formattedDeliveryDate}
+*Retirada:* ${formattedReturnDate}
+
+${formData.notes ? `*Observações:* ${formData.notes}` : ''}`;
+
+      // Codificar a mensagem para URL
+      const encodedMessage = encodeURIComponent(message);
+      
+      // Número do WhatsApp da empresa (sem o +55)
+      const whatsappNumber = '11989288740';
+      
+      // Criar o link do WhatsApp
+      const whatsappLink = `https://wa.me/55${whatsappNumber}?text=${encodedMessage}`;
+      
+      // Redirecionar para o WhatsApp
+      window.open(whatsappLink, '_blank');
+      
+      // Mostrar mensagem de sucesso
+      setSuccess('Agendamento realizado com sucesso! Você será redirecionado para o WhatsApp para finalizar o atendimento.');
+      
+      // Limpar formulário
+      setFormData({
+        name: '', email: '', phone: '', cep: '', address: '',
+        neighborhood: '', city: '', state: '',
+        deliveryDate: format(new Date(), 'yyyy-MM-dd'), notes: ''
       });
-
-      const paymentIntentData = await response.json();
-
-      if (!response.ok || !paymentIntentData.clientSecret) {
-        throw new Error(paymentIntentData.error || 'Falha ao iniciar o pagamento.');
-      }
-
-      setClientSecret(paymentIntentData.clientSecret);
-      setShowPaymentForm(true); // Mostrar o formulário de pagamento Stripe
-
+      setSelectedPlan(plans.length > 0 ? plans[0] : null);
+      window.scrollTo(0, 0);
+      
     } catch (err: any) {
-      console.error('Erro ao iniciar pagamento:', err);
-      setError(err.message || 'Não foi possível iniciar o processo de pagamento. Tente novamente.');
+      console.error('Erro ao processar agendamento:', err);
+      setError('Não foi possível completar o agendamento. Por favor, tente novamente.');
     } finally {
-      setIsSubmitting(false); // Finaliza o submitting do formulário de agendamento
+      setIsSubmitting(false);
     }
   };
 
@@ -326,9 +355,9 @@ export default function AgendamentoPage() {
               <label htmlFor="notes" className="block text-gray-700 font-medium mb-2">Observações Adicionais</label>
               <textarea id="notes" name="notes" value={formData.notes} onChange={handleInputChange} rows={3} className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1E5F8C]" placeholder="Alguma informação extra para a entrega ou sobre o uso?"></textarea>
             </div>
-            <button type="submit" disabled={isSubmitting || !selectedPlan || isPaymentProcessing} className="w-full bg-[#1E5F8C] hover:bg-[#164A6F] text-white font-bold py-3 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1E5F8C] focus:ring-opacity-50 disabled:opacity-50 flex items-center justify-center">
+            <button type="submit" disabled={isSubmitting || !selectedPlan} className="w-full bg-[#1E5F8C] hover:bg-[#164A6F] text-white font-bold py-3 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1E5F8C] focus:ring-opacity-50 disabled:opacity-50 flex items-center justify-center">
               {isSubmitting ? <LucideLoader2 className="animate-spin mr-2" /> : null}
-              Finalizar Agendamento e Ir para Pagamento
+              Enviar Agendamento
             </button>
           </form>
         ) : (
