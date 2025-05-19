@@ -21,10 +21,22 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className="scroll-smooth">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet" />
+        {/* Open Graph meta tags */}
+        
+        <meta property="og:title" content="RecoveryFit" />
+        <meta property="og:description" content="Recupere-se com tecnologia" />
+        <meta property="og:image" content="/imagens/logo/logoRecoveryfit.png" />
+        <meta property="og:url" content="https://recoveryfit.com.br" />
+        <meta property="og:type" content="RecoveryFit"/>
+        <meta property="og:site_name" content="RecoveryFit" />
+
+
+       
       </head>
       <body className={inter.className}>
         <Header />
